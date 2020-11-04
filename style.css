@@ -1,19 +1,48 @@
-.bg-dark {
-  background-color: none !important;
-}
-
+/*********** Main Image - Navbar *********/
 .full-width-image {
   width: 100vw;
   position: relative;
   left: 50%;
   margin-left: -50vw;
 }
-
 .nav-item {
   font-size: 1.2rem;
   font-weight: bold;
 }
-
 .full-width-image img {
   width: 100%;
 }
+/*********** Main Image - Navbar *********/
+/*********** Section with images and titles *********/
+.col {
+  padding: 0px;
+  max-width: none;
+}
+.third-text {
+  padding: 15% 10% 10% 10%;
+}
+.third-text-2 {
+  padding: 5% 10% 0% 6%;
+}
+.last-text {
+  padding: 8% 10% 0% 10%;
+}
+.last-text-2 {
+  padding: 5% 5% 6% 5%;
+}
+.first-text {
+  padding: 30% 20% 20% 20%;
+  font-size: 18px;
+}
+.first-image {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+.col-md-6 {
+  padding: 0px;
+}
+.col-md-4 {
+  padding: 0px;
+}
+/*********** Section with images and titles *********/
