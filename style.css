@@ -9,6 +9,11 @@
   margin-left: -50vw;
 }
 
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .full-width-image img {
   width: 100%;
 }
