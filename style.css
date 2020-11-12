@@ -80,13 +80,21 @@ html {
   padding: 7rem 2rem 5rem 2rem;
 }
 /* Card images */
+@media (max-width: 700px) {
+  .text-block {
+    padding: 2rem 0rem 1rem 0rem;
+  }
+}
 @media (max-width: 600px) {
   .full-width-image img {
     height: 20rem;
   }
+  h4 {
+    font-size: 0.8rem;
+  }
 }
 @media (max-width: 400px) {
   .navbar-brand {
-    width: 15rem;
+    width: 1.2rem;
   }
 }
