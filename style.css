@@ -79,6 +79,11 @@ html {
   text-align: center;
   padding: 7rem 2rem 5rem 2rem;
 }
+@media (max-width: 600px) {
+  .full-width-image img {
+    height: 20rem;
+  }
+}
 @media (max-width: 400px) {
   .navbar-brand {
     width: 15rem;
