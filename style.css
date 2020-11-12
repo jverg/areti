@@ -110,6 +110,26 @@ html {
   padding-left: 0px;
 }
 /* Biography */
+/* Contact */
+.contact {
+  background-color: #fec20c;
+}
+.contact-text {
+  padding: 8.5rem 2rem 2rem 4rem;
+  height: 22rem;
+}
+.map {
+  height: 22rem;
+}
+.col-md-4 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.col-md-8 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/* Contact */
 @media (max-width: 700px) {
   .text-block {
     padding: 2rem 0rem 1rem 0rem;
