@@ -2,6 +2,9 @@
 .navbar {
   background-color: #fff;
 }
+.navbar-brand {
+  margin-right: 0px;
+}
 /* Navbar */
 /* Main image */
 .full-width-image {
