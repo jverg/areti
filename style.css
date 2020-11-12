@@ -1,48 +1,61 @@
-/*********** Main Image - Navbar *********/
+/* Navbar */
+.navbar {
+  background-color: #fff;
+}
+/* Navbar */
+/* Main image */
 .full-width-image {
-  width: 100vw;
+  width: 100%;
   position: relative;
   left: 50%;
   margin-left: -50vw;
-}
-.nav-item {
-  font-size: 1.2rem;
-  font-weight: bold;
+  padding: 0px;
 }
 .full-width-image img {
   width: 100%;
+  height: 40rem;
 }
-/*********** Main Image - Navbar *********/
-/*********** Section with images and titles *********/
-.col {
-  padding: 0px;
-  max-width: none;
-}
-.third-text {
-  padding: 15% 10% 10% 10%;
-}
-.third-text-2 {
-  padding: 5% 10% 0% 6%;
-}
-.last-text {
-  padding: 8% 10% 0% 10%;
-}
-.last-text-2 {
-  padding: 5% 5% 6% 5%;
-}
-.first-text {
-  padding: 30% 20% 20% 20%;
-  font-size: 18px;
-}
-.first-image {
-  background-size: 100% 100%;
-  width: 100%;
-  height: 100%;
+/* Main image */
+/* Main page - Card images */
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .col-md-6 {
-  padding: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
-.col-md-4 {
-  padding: 0px;
+.card-deck {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
 }
-/*********** Section with images and titles *********/
+.card-deck .card {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border: none;
+}
+.card img {
+  width: 100%;
+}
+.card-style {
+  margin: 4% 1% 0% 0%;
+  background-color: white;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+}
+.text-block {
+  position: absolute;
+  right: 20%;
+  background: rgb(255, 140, 0, 0.5);
+  color: white;
+  padding: 2rem 3rem 7.5rem 3rem;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  text-align: center;
+}

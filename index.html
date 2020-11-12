@@ -1,35 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bootstrap Example</title>
+    <title>Αρετή Τσανακτσίδη</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-light">
-      <a class="navbar-brand" href="#">Atsanaktsidi</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Αρετή Τσανακτσίδη</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -43,88 +31,120 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">
-              Αρχική
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ο χώρος μας</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Υπηρεσίες
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Ατομική Ψυχοθεραπεία</a>
-              <a class="dropdown-item" href="#">Ομαδική Ψυχοθεραπεία</a>
-              <a class="dropdown-item" href="#">Ομιλίες-Σεμινάρια</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Επικοινωνία</a>
-          </li>
-        </ul>
+        <ul class="navbar-nav mr-auto"></ul>
+        <form class="form-inline my-2 my-lg-0">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Αρχική <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Υπηρεσίες</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Γνωσιακή Συμπεριφοριστική <br />Ψυχοθεραπεία
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ο χώρος</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Συχνές Ερωτήσεις</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Επικοινωνία</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+          </ul>
+        </form>
       </div>
     </nav>
-    <div class="container">
-      <div class="full-width-image">
-        <img src="/images/main-image.png" alt="" />
+    <!-- Main Image  -->
+    <section class="main_image">
+      <div class="container-fluid full-width-image">
+        <img
+          class="apps-image"
+          src="images/main-image.jpg"
+          alt="Tsanaktsidi main image"
+        />
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-          <img
-            class="first-image"
-            src="/images/subimage_3.jpeg"
-            alt="Athens School logo"
-          />
-        </div>
-        <div class="col-md-4"">
-          <h4 class="last-text">
-            Ομιλίες-Σεμινάρια
-          </h4>
-        </div>
-        <div class="col-md-4">
-          <img
-            class="first-image"
-            src="/images/subimage_2.jpeg"
-            alt="Athens School logo"
-          />
+    </section>
+    <!-- Main Image  -->
+    <!-- Image Categories -->
+    <section class="image_categories">
+      <div class="main__top row">
+        <div class="card-deck">
+          <div class="col-md-6">
+            <div class="card card-style">
+              <img
+                class="img-responsive"
+                src="images/image1.jpg"
+                alt="This is image"
+              />
+              <div class="text-block">
+                <h4>ΨΥΧΟΘΕΡΑΠΕΙΑ ΕΝΗΛΙΚΩΝ</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-style">
+              <img
+                class="img-responsive"
+                src="images/image2.jpg"
+                alt="This is image"
+              />
+              <div class="text-block">
+                <h4>ATOMIKH ΨΥΧΟΘΕΡΑΠΕΙΑ ΠΑΙΔΙΩΝ & ΕΦΗΒΩΝ</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-style">
+              <img
+                class="img-responsive"
+                src="images/image3.jpg"
+                alt="This is image"
+              />
+              <div class="text-block">
+                <h4>ΣΥΜΒΟΥΛΕΥΤΙΚΗ ΓΟΝΕΩΝ</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-style">
+              <img
+                class="img-responsive"
+                src="images/image4.jpg"
+                alt="This is image"
+              />
+              <div class="text-block">
+                <h4>ΨΥΧΟΘΕΡΑΠΕΙΑ ΜΕΣΩ ΔΙΑΔΙΚΤΥΟΥ</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-          <h5 class="last-text">
-            Ατομική Ψυχοθεραπεία
-          </h5>
-        </div>
-        <div class="col-md-4">
-          <img
-            class="first-image"
-            src="/images/subimage_1.jpg"
-            alt="Athens School logo"
-          />
-        </div>
-        <div class="col-md-4">
-          <h5 class="last-text">
-            Ομαδική Ψυχοθεραπεία
-          </h5>
-        </div>
-      </div>
-    </div>
+    </section>
+    <!-- Image Categories -->
   </body>
 </html>
