@@ -41,7 +41,7 @@ html {
 }
 .bottom {
   position: absolute;
-  top: 90%;
+  padding-bottom: 5rem;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -94,6 +94,22 @@ html {
   padding: 7rem 2rem 5rem 2rem;
 }
 /* Card images */
+/* Biography */
+.biography {
+  background-color: #d5d5d5;
+}
+.biography-text {
+  padding: 4rem;
+}
+.col-md-4 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.col-md-8 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/* Biography */
 @media (max-width: 700px) {
   .text-block {
     padding: 2rem 0rem 1rem 0rem;
