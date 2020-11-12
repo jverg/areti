@@ -12,10 +12,13 @@ html {
   padding-bottom: 0px;
   width: 20rem;
 }
+.navbar-toggler {
+  margin-right: 1rem;
+}
 /* Navbar */
 /* Main image */
 .full-width-image {
-  width: 100%;
+  width: 100.4%;
   position: relative;
   left: 50%;
   margin-left: -50vw;
