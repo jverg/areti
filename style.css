@@ -95,6 +95,6 @@ html {
 }
 @media (max-width: 400px) {
   .navbar-brand {
-    width: 1.2rem;
+    width: 12rem;
   }
 }
