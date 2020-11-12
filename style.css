@@ -15,6 +15,9 @@ html {
 .navbar-toggler {
   margin-right: 1rem;
 }
+.mr-auto {
+  padding-left: 1rem;
+}
 /* Navbar */
 /* Main image */
 .full-width-image {
