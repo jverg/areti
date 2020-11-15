@@ -147,6 +147,10 @@ html {
   .full-width-image img {
     height: 20rem;
   }
+  .bottom {
+    width: 1.5rem;
+    padding-bottom: 3rem;
+  }
   h4 {
     font-size: 0.8rem;
   }
