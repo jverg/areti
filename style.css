@@ -18,6 +18,70 @@ html {
 .mr-auto {
   padding-left: 1rem;
 }
+.back-1 {
+  background-image: url("images/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  text-align: center;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  display: flex;
+  justify-content: center;
+}
+.back-2 {
+  background-image: url("images/image2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  text-align: center;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  display: flex;
+  justify-content: center;
+}
+.back-3 {
+  background-image: url("images/image3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  text-align: center;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  display: flex;
+  justify-content: center;
+}
+.back-4 {
+  background-image: url("images/image4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  text-align: center;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  display: flex;
+  justify-content: center;
+}
+.card-text {
+  background-color: #fec20c;
+  opacity: 0.8;
+  color: white;
+  width: 40%;
+  height: 6rem;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+}
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
   color: #fec20c;
@@ -29,7 +93,7 @@ html {
 /* Navbar */
 /* Main image */
 .full-width-image {
-  width: 100.4%;
+  width: 100%;
   position: relative;
   left: 50%;
   margin-left: -50vw;
@@ -49,10 +113,6 @@ html {
 }
 /* Main image */
 /* Card images */
-.row {
-  margin-right: 0px;
-  margin-left: 0px;
-}
 .col-md-6 {
   padding-right: 0px;
   padding-left: 0px;
