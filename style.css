@@ -131,6 +131,9 @@ html {
 .biography-text {
   padding: 4rem;
 }
+.white-line {
+  height: 3rem;
+}
 .bottom-orange {
   position: absolute;
   padding-bottom: 3rem;
@@ -150,14 +153,6 @@ html {
 }
 .map {
   height: 22rem;
-}
-.col-md-4 {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-.col-md-8 {
-  padding-right: 0px;
-  padding-left: 0px;
 }
 /* Contact */
 @media (max-width: 1000px) {
