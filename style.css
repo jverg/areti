@@ -53,11 +53,6 @@ html {
   padding-right: 0px;
   padding-left: 0px;
 }
-.card-deck {
-  margin-right: 0px;
-  margin-left: 0px;
-  width: 100%;
-}
 .back-1 {
   background-image: url("images/image1.jpg");
   background-size: cover;
@@ -182,4 +177,10 @@ html {
   .navbar-brand {
     width: 12rem;
   }
+}
+.col-md-4 {
+  padding: 0 0;
+}
+.col-md-8 {
+  padding: 0 0;
 }
