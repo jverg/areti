@@ -24,6 +24,52 @@
   color: black;
 }
 /* Navbar */
+/* Main image */
+.col-md-12 {
+  padding: 0;
+}
+.main-image {
+  background-image: url("images/office/main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.main-image-text {
+  background-color: rgba(245, 196, 69, 0.7);
+  color: white;
+  width: 20%;
+  height: 3rem;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 2rem;
+  margin: 12rem 0;
+}
+.bottom {
+  position: absolute;
+  padding-bottom: 5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 2rem;
+}
+/* Main image */
+/* First text */
+.first-text-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-text {
+  text-align: center;
+  padding: 2rem 0;
+  color: grey;
+}
+/* First text */
 /* Contact */
 .contact {
   background-color: #fec20c;
