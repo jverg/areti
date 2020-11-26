@@ -113,8 +113,7 @@ body {
   justify-content: center;
 }
 .card-text {
-  background-color: #fec20c;
-  opacity: 0.5;
+  background-color: rgba(245, 196, 69, 0.7);
   color: white;
   width: 40%;
   height: 6rem;
