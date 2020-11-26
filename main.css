@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: "PF Din Text Comp Pro Light";
+  font-size: 1.5rem;
+}
 /* Navbar */
 .navbar {
   background-color: #fff;
