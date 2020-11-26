@@ -112,7 +112,7 @@ body {
     font-size: 0.8rem;
   }
   .main-image-text {
-    height: 1.5rem;
+    padding: 6rem 2rem;
   }
 }
 @media (max-width: 400px) {
