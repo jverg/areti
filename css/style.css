@@ -1,35 +1,75 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-    font-family: "PF Din Text Comp Pro Light";
-    font-size: 1.5rem;
+  font-family: "PF Din Text Comp Pro Light";
+  font-size: 1.5rem;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.col-md-4 {
+  padding: 0 0;
+}
+.col-md-5 {
+  padding: 0 0;
+}
+.col-md-8 {
+  padding: 0 0;
 }
 /* Navbar */
 .navbar {
-    background-color: #fff;
-    padding: 0rem;
+  background-color: #fff;
+  padding: 0rem;
 }
 .navbar-brand {
-    margin-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 20rem;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 20rem;
 }
 .navbar-toggler {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 .mr-auto {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-    color: #fec20c;
+  color: #fec20c;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+  color: black;
 }
 .form-inline {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 /* Navbar */
+/* Contact */
+.contact {
+  background-color: #fec20c;
+}
+.contact-text {
+  padding: 7.5rem 1rem 1rem 2rem;
+  height: 22rem;
+}
+.map {
+  height: 22rem;
+}
+/* Contact */
+@media (max-width: 1000px) {
+  .contact-text {
+    padding: 5rem 1rem 1rem 2rem;
+    height: 22rem;
+  }
+}
+@media (max-width: 400px) {
+  .navbar-brand {
+    width: 12rem;
+  }
+}

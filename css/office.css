@@ -123,18 +123,6 @@
   width: 3rem;
 }
 /* First text */
-/* Contact */
-.contact {
-  background-color: #fec20c;
-}
-.contact-text {
-  padding: 7.5rem 1rem 1rem 2rem;
-  height: 22rem;
-}
-.map {
-  height: 22rem;
-}
-/* Contact */
 @media (max-width: 1000px) {
   .contact-text {
     padding: 5rem 1rem 1rem 2rem;

@@ -1,0 +1,57 @@
+/* Main image */
+.col-md-12 {
+  padding: 0;
+}
+.main-image {
+  background-image: url("../images/office/main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.main-image-text {
+  background-color: rgba(245, 196, 69, 0.5);
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 2rem;
+  margin: 0 0;
+}
+.bottom {
+  position: absolute;
+  padding-bottom: 5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 2rem;
+}
+/* Main image */
+/* Biography */
+.bio-title-text {
+  margin-top: 4rem;
+  padding: 0 5rem;
+}
+.bio-subtitle-text {
+  margin-bottom: 4rem;
+  padding: 0 5rem;
+}
+.bio-text {
+  padding: 0 5rem;
+}
+.areti_tsanaktsidi {
+  background-image: url("../images/biography/areti_tsanaktsidi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 55rem;
+}
+/* Biography */
