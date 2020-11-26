@@ -44,6 +44,62 @@
   color: grey;
 }
 /* First text */
+/* Card images */
+.col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.image1 {
+  background-image: url("../images/office/office1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50rem;
+}
+.image2 {
+  background-image: url("../images/office/office2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50rem;
+}
+.image3 {
+  background-image: url("../images/office/office3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50rem;
+}
+.image4 {
+  background-image: url("../images/office/office4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50rem;
+}
+.image5 {
+  background-image: url("../images/office/office5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50rem;
+}
+/* Card images */
 /* Contact */
 .contact {
   background-color: #fec20c;
