@@ -1,9 +1,8 @@
-@import url(https://db.onlinewebfonts.com/c/7e3a5573c557fff0d0f1d39f585b1e77?family=PF+Din+Text+Universal);
 html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: "PF Din Text Universal";
+    font-family: "PF Din Text Comp Pro Light";
     font-size: 1.5rem;
 }
 /* Navbar */
