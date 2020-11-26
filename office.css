@@ -1,36 +1,3 @@
-body {
-  font-family: "PF Din Text Comp Pro Light";
-  font-size: 1.5rem;
-}
-/* Navbar */
-.navbar {
-  background-color: #fff;
-  padding: 0rem;
-}
-.navbar-brand {
-  margin-right: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  width: 20rem;
-}
-.navbar-toggler {
-  margin-right: 1rem;
-}
-.mr-auto {
-  padding-left: 1rem;
-}
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active {
-  color: #fec20c;
-  font-weight: bold;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: black;
-}
-.form-inline {
-  margin-right: 1rem;
-}
-/* Navbar */
 /* Main image */
 .col-md-12 {
   padding: 0;
