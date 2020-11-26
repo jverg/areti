@@ -3,7 +3,7 @@
   padding: 0;
 }
 .main-image {
-  background-image: url("images/office/main.png");
+  background-image: url("../images/office/main.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
