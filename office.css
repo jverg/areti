@@ -119,6 +119,9 @@ body {
   .navbar-brand {
     width: 12rem;
   }
+  .main-image-text {
+    width: 60%;
+  }
 }
 .col-md-4 {
   padding: 0 0;
