@@ -30,6 +30,9 @@ body {
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
+.form-inline {
+  margin-right: 1rem;
+}
 /* Navbar */
 /* Main image */
 .full-width-image {
