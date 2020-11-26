@@ -40,7 +40,7 @@
 }
 .first-text {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 0 1rem 0;
   color: grey;
 }
 /* First text */
@@ -57,7 +57,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  padding-bottom: 50rem;
+  padding-bottom: 55rem;
 }
 .image2 {
   background-image: url("../images/office/office2.png");
@@ -67,7 +67,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  padding-bottom: 50rem;
+  padding-bottom: 55rem;
 }
 .image3 {
   background-image: url("../images/office/office3.png");
@@ -100,6 +100,29 @@
   padding-bottom: 50rem;
 }
 /* Card images */
+/* Bottom text */
+.bottom-text-container {
+  padding: 2rem 0 4rem 0;
+}
+.bot-text-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bot-text {
+  text-align: center;
+  color: grey;
+  margin-bottom: 0;
+}
+.bottom-orange {
+  position: absolute;
+  padding-bottom: 3rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 3rem;
+}
+/* First text */
 /* Contact */
 .contact {
   background-color: #fec20c;
