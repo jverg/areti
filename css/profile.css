@@ -54,4 +54,31 @@
   justify-content: center;
   padding-bottom: 55rem;
 }
+.bio-container {
+  margin-bottom: 3rem;
+}
+.call-me-back {
+  margin-bottom: 2rem;
+}
+#form {
+  margin-bottom: 3rem;
+}
+.submit-button {
+  font-family: "PF Din Text Comp Pro Light";
+  width: 25%;
+}
+@media (max-width: 1000px) {
+  .submit-button {
+    width: 100%;
+  }
+  .bio-text {
+    padding: 0 2rem;
+  }
+  .bio-title-text {
+    padding: 0 2rem;
+  }
+  .bio-subtitle-text {
+    padding: 0 2rem;
+  }
+}
 /* Biography */

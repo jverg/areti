@@ -129,7 +129,7 @@
     <!-- Main image -->
     <!-- Biography -->
     <section id="biography" class="biography">
-      <div class="container-fluid">
+      <div class="container-fluid bio-container">
         <div class="row">
           <div class="col-md-7">
             <h2 class="bio-title-text">
@@ -187,8 +187,94 @@
           </div>
         </div>
       </div>
+      <div class="bottom">
+        <a href="/#form">
+          <img src="images/grey-arrow.svg" alt="Grey arrow" />
+        </a>
+      </div>
     </section>
     <!-- Biography -->
+    <!-- Form -->
+    <div class="container" id="form">
+      <form name="contact-form" method="POST" data-netlify="true">
+        <div class="form-row">
+          <div class="col-md-12">
+            <h2 style="color: grey;">
+              Τρόποι επικοινωνίας
+            </h2>
+          </div>
+          <div class="col-md-12">
+            <h4 style="color: grey;">
+              Καλέστε με στο 699 70 499 91
+            </h4>
+          </div>
+          <div class="col-md-12 call-me-back">
+            <h4 style="color: grey;">
+              ή αν θέλετε μπορείτε να συμπληρώσετε τα στοιχεία σας και σύντομα
+              θα επικοινωνήσω μαζί σας.
+            </h4>
+          </div>
+          <div class="form-group col-md-12">
+            <label for="first-name" class="field-label" style="color: grey;">
+              Το ονομά σας
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              id="first-name"
+              name="first_name"
+              placeholder=""
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email" class="field-label" style="color: grey;"
+              >Το email σας</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="client_email"
+              placeholder=""
+              required
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="phone" class="field-label" style="color: grey;"
+              >Το τηλεφωνό σας</label
+            >
+            <input
+              type="number"
+              name="phone"
+              class="form-control"
+              id="phone"
+              placeholder=""
+            />
+          </div>
+          <div class="form-group col-md-12">
+            <label for="comments" class="field-label" style="color: grey;"
+              >Σχόλια</label
+            >
+            <textarea
+              class="form-control"
+              name="comments"
+              id="comments"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="form-group col-md-12">
+            <button
+              type="submit"
+              class="btn btn-warning submit-button"
+              style="color: white; font-size: 1.5rem;"
+            >
+              Αποστολή
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Form -->
     <!-- Contact -->
     <section id="contact">
       <div class="container-fluid">
