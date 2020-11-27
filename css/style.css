@@ -49,6 +49,9 @@ body {
 .form-inline {
   margin-right: 1rem;
 }
+.nav-item {
+  margin-right: 1rem;
+}
 /* Navbar */
 /* Contact */
 .contact {
