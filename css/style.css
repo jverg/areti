@@ -41,7 +41,7 @@ body {
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #fec20c;
+  color: #f5c445;
 }
 .navbar-light .navbar-nav .nav-link {
   color: black;
@@ -55,10 +55,22 @@ body {
 .dropdown-menu {
   min-width: 21rem;
 }
+.submenu-text {
+  color: black;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+.submenu:hover {
+  background-color: #f5c445;
+  color: white !important;
+}
+.submenu-text:hover {
+  color: white !important;
+}
 /* Navbar */
 /* Contact */
 .contact {
-  background-color: #fec20c;
+  background-color: #f5c445;
 }
 .contact-text {
   padding: 7.5rem 1rem 1rem 2rem;
