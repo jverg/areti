@@ -48,7 +48,8 @@ body {
   padding-left: 1rem;
 }
 .navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link.active,
+.nav-item .active .dropdown {
   color: #f5c445;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -69,6 +70,12 @@ body {
 }
 .submenu:hover {
   background-color: #f5c445;
+  color: white !important;
+}
+.submenu-active {
+  background-color: #f5c445;
+}
+.submenu-text-active {
   color: white !important;
 }
 /* Navbar */

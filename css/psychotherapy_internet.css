@@ -1,0 +1,47 @@
+/* Main image */
+.col-md-12 {
+  padding: 0;
+}
+.main-image {
+  background-image: url("../images/psychotherapy_internet/psychotherapy_internet.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.main-image-text {
+  background-color: rgba(245, 196, 69, 0.7);
+  color: white;
+  width: 30%;
+  height: 3rem;
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 2rem;
+  margin: 12rem 0;
+}
+.bottom {
+  position: absolute;
+  padding-bottom: 5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 2rem;
+}
+/* Main image */
+.text {
+  padding: 2rem 20rem;
+}
+@media (max-width: 1300px) {
+  .text {
+    padding: 2rem 7rem;
+  }
+}
+@media (max-width: 600px) {
+  .text {
+    padding: 1.5rem 3rem;
+  }
+}
