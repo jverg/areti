@@ -5,6 +5,12 @@ body {
   font-family: "PF Din Text Comp Pro Light";
   font-size: 1.5rem;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -56,16 +62,15 @@ body {
   min-width: 21rem;
 }
 .submenu-text {
-  color: black;
   margin: 0 1rem;
   font-size: 1.5rem;
 }
 .submenu:hover {
   background-color: #f5c445;
-  color: white !important;
+  color: white;
 }
 .submenu-text:hover {
-  color: white !important;
+  color: white;
 }
 /* Navbar */
 /* Contact */
