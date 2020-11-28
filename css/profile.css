@@ -3,7 +3,7 @@
   padding: 0;
 }
 .main-image {
-  background-image: url("../images/office/main.png");
+  background-image: url("../images/biography/main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,9 +23,17 @@
   padding: 10rem 2rem;
   margin: 0 0;
 }
-.bottom {
+.bottom-top {
   position: absolute;
   padding-bottom: 5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 2rem;
+}
+.bottom {
+  position: absolute;
+  padding: 2rem 0;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -45,7 +53,7 @@
   padding: 0 5rem;
 }
 .areti_tsanaktsidi {
-  background-image: url("../images/biography/areti_tsanaktsidi.png");
+  background-image: url("../images/biography/areti_tsanaktsidi.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,6 +70,7 @@
 }
 #form {
   margin-bottom: 3rem;
+  margin-top: 5rem;
 }
 .submit-button {
   font-family: "PF Din Text Comp Pro Light";
