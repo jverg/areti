@@ -56,11 +56,11 @@
   background-image: url("../images/biography/areti_tsanaktsidi.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   text-align: center;
   display: flex;
   justify-content: center;
-  padding-bottom: 55rem;
+  padding-bottom: 50rem;
 }
 .bio-container {
   margin-bottom: 3rem;
@@ -88,6 +88,9 @@
   }
   .bio-subtitle-text {
     padding: 0 2rem;
+  }
+  .areti_tsanaktsidi {
+    padding-bottom: 30rem;
   }
 }
 @media (max-width: 500px) {
