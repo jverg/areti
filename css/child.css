@@ -6,7 +6,7 @@
   background-image: url("../images/child/child.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 60%;
   text-align: center;
   display: flex;
   justify-content: center;
