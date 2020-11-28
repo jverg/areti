@@ -61,6 +61,8 @@
 }
 .bio-text {
   padding: 0 5rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .areti_tsanaktsidi {
   background-image: url("../images/biography/areti_tsanaktsidi.jpg");
