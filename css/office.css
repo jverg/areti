@@ -3,7 +3,7 @@
   padding: 0;
 }
 .main-image {
-  background-image: url("../images/office/main.png");
+  background-image: url("../images/office/main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -50,7 +50,7 @@
   padding-right: 0;
 }
 .image1 {
-  background-image: url("../images/office/office1.png");
+  background-image: url("../images/office/office1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -60,7 +60,7 @@
   padding-bottom: 55rem;
 }
 .image2 {
-  background-image: url("../images/office/office2.png");
+  background-image: url("../images/office/office2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -70,7 +70,7 @@
   padding-bottom: 55rem;
 }
 .image3 {
-  background-image: url("../images/office/office3.png");
+  background-image: url("../images/office/office3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,7 +80,7 @@
   padding-bottom: 50rem;
 }
 .image4 {
-  background-image: url("../images/office/office4.png");
+  background-image: url("../images/office/office4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -90,7 +90,7 @@
   padding-bottom: 50rem;
 }
 .image5 {
-  background-image: url("../images/office/office5.png");
+  background-image: url("../images/office/office5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
