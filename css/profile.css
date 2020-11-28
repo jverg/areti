@@ -92,13 +92,13 @@
 }
 @media (max-width: 500px) {
   .bio-text {
-    padding: 0 0.5rem;
+    padding: 0 0.1rem;
   }
   .bio-title-text {
-    padding: 0 0.5rem;
+    padding: 0 0.1rem;
   }
   .bio-subtitle-text {
-    padding: 0 0.5rem;
+    padding: 0 0.1rem;
   }
 }
 /* Biography */
