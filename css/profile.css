@@ -90,4 +90,15 @@
     padding: 0 2rem;
   }
 }
+@media (max-width: 500px) {
+  .bio-text {
+    padding: 0 0.5rem;
+  }
+  .bio-title-text {
+    padding: 0 0.5rem;
+  }
+  .bio-subtitle-text {
+    padding: 0 0.5rem;
+  }
+}
 /* Biography */
