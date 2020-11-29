@@ -42,20 +42,15 @@
   text-align: justify;
   text-justify: inter-word;
 }
-@media (max-width: 1300px) {
-  .text {
-    padding: 2rem 7rem;
-  }
-}
 @media (max-width: 1000px) {
   .main-image-text {
     width: 50%;
   }
+  .text {
+    padding: 1rem 1rem;
+  }
 }
 @media (max-width: 600px) {
-  .text {
-    padding: 1.5rem 3rem;
-  }
   .main-image-text {
     padding: 6rem 2rem;
   }
