@@ -25,7 +25,7 @@
   padding-left: 0px;
 }
 .back-1 {
-  background-image: url("../images/image1.jpg");
+  background-image: url("../images/adult/adult.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,7 +38,7 @@
   justify-content: center;
 }
 .back-2 {
-  background-image: url("../images/image2.jpg");
+  background-image: url("../images/child/child.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,7 +51,7 @@
   justify-content: center;
 }
 .back-3 {
-  background-image: url("../images/image3.jpg");
+  background-image: url("../images/parents/parents.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,7 +64,7 @@
   justify-content: center;
 }
 .back-4 {
-  background-image: url("../images/image4.jpg");
+  background-image: url("../images/psychotherapy_internet/psychotherapy_internet.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -90,7 +90,46 @@
 
 /* Card images */
 /* Biography */
-.biography {
+.bio-title-text {
+  margin-top: 4rem;
+  padding: 0 5rem;
+}
+.bio-subtitle-text {
+  margin-bottom: 4rem;
+  padding: 0 5rem;
+}
+.bio-text {
+  padding: 0 5rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.areti_tsanaktsidi {
+  background-image: url("../images/biography/areti_tsanaktsidi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50rem;
+}
+.bio-container {
+  margin-bottom: 3rem;
+  background-color: #d5d5d5;
+}
+.call-me-back {
+  margin-bottom: 2rem;
+}
+#form {
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+.submit-button {
+  font-family: "PF Din Text Comp Pro Light";
+  width: 25%;
+}
+/* Biography */
+/* .biography {
   background-color: #d5d5d5;
 }
 .biography-text {
@@ -99,6 +138,7 @@
 .white-line {
   height: 3rem;
 }
+*/
 .bottom-orange {
   position: absolute;
   padding-bottom: 3rem;
@@ -108,7 +148,7 @@
   width: 3rem;
 }
 /* Biography */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .text-block {
     padding: 2rem 0rem 1rem 0rem;
   }
@@ -123,5 +163,48 @@
   }
   h4 {
     font-size: 0.8rem;
+  }
+} */
+@media (max-width: 1000px) {
+  .submit-button {
+    width: 100%;
+  }
+  .bio-text {
+    padding: 0 0.5rem;
+  }
+  .bio-title-text {
+    padding: 0 0.5rem;
+  }
+  .bio-subtitle-text {
+    padding: 0 0.5rem;
+  }
+  .areti_tsanaktsidi {
+    padding-bottom: 30rem;
+  }
+}
+@media (max-width: 930px) {
+  .up-quote {
+    width: 1.5rem;
+    margin-right: 10rem;
+    padding-top: 2rem;
+  }
+  .main-image-text h3 {
+    font-size: 1.5rem;
+  }
+  .down-quote {
+    width: 1.5rem;
+    margin-left: 10rem;
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .bio-text {
+    padding: 0 0.1rem;
+  }
+  .bio-title-text {
+    padding: 0 0.1rem;
+  }
+  .bio-subtitle-text {
+    padding: 0 0.1rem;
   }
 }
