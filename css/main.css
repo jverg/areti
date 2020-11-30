@@ -198,6 +198,11 @@
   .areti_tsanaktsidi {
     padding-bottom: 30rem;
   }
+  .main-back {
+    background-position: 30% 0%;
+    padding-top: 50%;
+    padding-bottom: 30%;
+  }
 }
 @media (max-width: 930px) {
   .up-quote {
