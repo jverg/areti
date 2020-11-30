@@ -1,5 +1,22 @@
 /* Main image */
-.full-width-image {
+.main-back {
+  background-image: url("../images/main-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  display: flex;
+  justify-content: center;
+}
+.main-row > .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* .full-width-image {
   width: 100%;
   position: relative;
   left: 50%;
@@ -9,7 +26,7 @@
 .full-width-image img {
   width: 100%;
   height: 40rem;
-}
+} */
 .bottom {
   position: absolute;
   padding-bottom: 5rem;
