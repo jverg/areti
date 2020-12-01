@@ -54,50 +54,65 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
   text-align: center;
+  padding-top: 37.5%;
+  padding-bottom: 37.5%;
   display: flex;
   justify-content: center;
-  padding-bottom: 55rem;
 }
 .image2 {
   background-image: url("../images/office/office2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
   text-align: center;
+  padding-top: 100%;
+  padding-bottom: 50%;
   display: flex;
   justify-content: center;
-  padding-bottom: 55rem;
 }
 .image3 {
   background-image: url("../images/office/office3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
   text-align: center;
+  padding-top: 35%;
+  padding-bottom: 35%;
   display: flex;
   justify-content: center;
-  padding-bottom: 50rem;
 }
 .image4 {
   background-image: url("../images/office/office4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
   text-align: center;
+  padding-top: 35%;
+  padding-bottom: 35%;
   display: flex;
   justify-content: center;
-  padding-bottom: 50rem;
 }
 .image5 {
   background-image: url("../images/office/office5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-right: 0rem;
+  padding-left: 0rem;
   text-align: center;
+  padding-top: 35%;
+  padding-bottom: 35%;
   display: flex;
   justify-content: center;
-  padding-bottom: 50rem;
 }
 /* Card images */
 /* Bottom text */
