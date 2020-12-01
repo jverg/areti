@@ -44,6 +44,9 @@
   .text {
     padding: 1rem 1rem;
   }
+  .main-image {
+    background-position: 32% 0%;
+  }
 }
 @media (max-width: 600px) {
   .main-image-text {
