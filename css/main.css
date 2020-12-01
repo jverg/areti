@@ -43,7 +43,7 @@
 }
 .back-1 {
   background-image: url("../images/adult/adult.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-right: 0rem;
@@ -56,7 +56,7 @@
 }
 .back-2 {
   background-image: url("../images/child/child.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-right: 0rem;
@@ -69,7 +69,7 @@
 }
 .back-3 {
   background-image: url("../images/parents/parents.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-right: 0rem;
@@ -82,7 +82,7 @@
 }
 .back-4 {
   background-image: url("../images/psychotherapy_internet/psychotherapy_internet.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-right: 0rem;
