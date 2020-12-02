@@ -187,13 +187,13 @@
     width: 100%;
   }
   .bio-text {
-    padding: 0 0.5rem;
+    padding: 0 1.5rem;
   }
   .bio-title-text {
-    padding: 0 0.5rem;
+    padding: 0 1.5rem;
   }
   .bio-subtitle-text {
-    padding: 0 0.5rem;
+    padding: 0 1.5rem;
   }
   .areti_tsanaktsidi {
     padding-bottom: 30rem;
@@ -217,16 +217,5 @@
     width: 1.5rem;
     margin-left: 10rem;
     padding-bottom: 2rem;
-  }
-}
-@media (max-width: 500px) {
-  .bio-text {
-    padding: 0 0.1rem;
-  }
-  .bio-title-text {
-    padding: 0 0.1rem;
-  }
-  .bio-subtitle-text {
-    padding: 0 0.1rem;
   }
 }
