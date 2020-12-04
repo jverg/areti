@@ -55,6 +55,9 @@ body {
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
+.specialty {
+  text-align: center;
+}
 .form-inline {
   margin-right: 1rem;
 }
@@ -92,6 +95,9 @@ body {
   .contact-text {
     padding: 5rem 1rem 1rem 2rem;
     height: 22rem;
+  }
+  .specialty {
+    text-align: left;
   }
 }
 @media (max-width: 400px) {
