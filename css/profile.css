@@ -109,7 +109,7 @@
 @media (max-width: 930px) {
   .up-quote {
     width: 1.5rem;
-    margin-right: 10rem;
+    margin-right: 13rem;
     padding-top: 2rem;
   }
   .main-image-text h3 {
@@ -117,7 +117,7 @@
   }
   .down-quote {
     width: 1.5rem;
-    margin-left: 10rem;
+    margin-left: 14rem;
     padding-bottom: 2rem;
   }
 }
