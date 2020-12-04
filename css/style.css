@@ -2,8 +2,21 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "PF Din Text Comp Pro Light";
   font-size: 1.5rem;
+}
+@font-face {
+  font-family: "PFDinTextW01-Light";
+  src: url("//db.onlinewebfonts.com/t/46efc005525717fd84152cbf70f4de41.eot");
+  src: url("//db.onlinewebfonts.com/t/46efc005525717fd84152cbf70f4de41.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/46efc005525717fd84152cbf70f4de41.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/46efc005525717fd84152cbf70f4de41.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/46efc005525717fd84152cbf70f4de41.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/46efc005525717fd84152cbf70f4de41.svg#PFDinTextW01-Light")
+      format("svg");
 }
 .submenu a {
   text-decoration: none;
