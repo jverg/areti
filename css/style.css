@@ -74,6 +74,9 @@ body {
 .nav-item {
   margin-right: 3.2rem;
 }
+h3 {
+  font-size: 1.2rem;
+}
 .dropdown-menu {
   min-width: 10rem;
   background-color: #f5c445;
