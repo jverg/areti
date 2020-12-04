@@ -86,6 +86,7 @@ body {
 }
 hr {
   border-top: 1px solid white;
+  margin: 0;
 }
 .submenu a {
   color: white;
@@ -100,7 +101,7 @@ hr {
   color: white !important;
 }
 .submenu-active {
-  background-color: #f5c445;
+  background-color: orange;
 }
 .submenu-text-active {
   color: white !important;
