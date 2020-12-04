@@ -97,7 +97,7 @@ hr {
   text-align: center;
 }
 .submenu:hover {
-  background-color: #f5c445;
+  background-color: orange;
   color: white !important;
 }
 .submenu-active {
