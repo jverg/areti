@@ -43,11 +43,12 @@
 }
 .up-quote {
   width: 3rem;
-  margin-right: 16rem;
+  margin-right: 24rem;
 }
 .down-quote {
   width: 3rem;
-  margin-left: 16rem;
+  margin-left: 27rem;
+  margin-bottom: 2rem;
 }
 /* Main image */
 /* Biography */
