@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 @font-face {
   font-family: "PFDinTextW01-Light";
@@ -71,11 +71,8 @@ body {
 .specialty {
   text-align: center;
 }
-.form-inline {
-  margin-right: 1rem;
-}
 .nav-item {
-  margin-right: 1rem;
+  margin-right: 3.2rem;
 }
 .dropdown-menu {
   min-width: 21rem;
