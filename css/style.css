@@ -78,6 +78,7 @@ body {
   min-width: 10rem;
   background-color: #f5c445;
   color: white;
+  padding: 0rem 0;
 }
 .submenu {
   display: flex;
