@@ -75,9 +75,14 @@ body {
   margin-right: 3.2rem;
 }
 .dropdown-menu {
-  min-width: 21rem;
+  min-width: 10rem;
   background-color: #f5c445;
   color: white;
+}
+.submenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .submenu a {
   color: white;
@@ -85,6 +90,7 @@ body {
 .submenu-text {
   margin: 0 1rem;
   font-size: 1.1rem;
+  text-align: center;
 }
 .submenu:hover {
   background-color: #f5c445;
