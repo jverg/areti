@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 @font-face {
   font-family: "PFDinTextW01-Light";
@@ -82,7 +82,7 @@ body {
 }
 .submenu-text {
   margin: 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .submenu:hover {
   background-color: #f5c445;
