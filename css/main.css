@@ -1,14 +1,12 @@
 /* Main image */
 .main-back {
-  background-image: url("../images/main-image.png");
+  background-image: url("../images/main-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-right: 0rem;
-  padding-left: 0rem;
   text-align: center;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 14%;
+  padding-bottom: 15%;
   display: flex;
   justify-content: center;
 }
