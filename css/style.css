@@ -84,6 +84,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+hr {
+  border-top: 1px solid white;
+}
 .submenu a {
   color: white;
 }
