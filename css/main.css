@@ -228,5 +228,6 @@
   }
   .card-text {
     padding: 5rem;
+    font-size: 1rem;
   }
 }
