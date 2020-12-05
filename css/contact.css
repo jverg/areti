@@ -1,0 +1,23 @@
+.bottom {
+  position: absolute;
+  padding-bottom: 5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 2rem;
+}
+.bottom-top {
+  position: absolute;
+  padding-bottom: 5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 2rem;
+}
+#form {
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+.submit-button {
+  width: 25%;
+}

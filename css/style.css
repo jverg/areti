@@ -20,7 +20,7 @@ body {
 }
 .submenu a {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 .submenu a:hover {
   color: white;
@@ -66,7 +66,7 @@ body {
   color: #f5c445;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: black;
+  color: grey;
 }
 .specialty {
   text-align: center;
