@@ -40,8 +40,9 @@
 }
 .first-text {
   text-align: center;
-  padding: 2rem 0 1rem 0;
+  padding: 2rem 1rem 1rem 1rem;
   color: grey;
+  font-size: 1.5rem;
 }
 /* First text */
 /* Card images */
@@ -116,28 +117,24 @@
 }
 /* Card images */
 /* Bottom text */
-.bottom-text-container {
-  padding: 2rem 0 4rem 0;
-}
-.bot-text-col {
+.text-child {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #d3d3d3;
+  color: #606060;
 }
 .bot-text {
-  text-align: center;
-  color: grey;
-  margin-bottom: 0;
-}
-.bottom-orange {
-  position: absolute;
-  padding-bottom: 3rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  width: 3rem;
+  padding: 0 4rem;
+  font-size: 1.8rem;
 }
 /* First text */
+@media (max-width: 1200px) {
+  .bot-text {
+    padding: 0 4rem;
+    font-size: 1.2rem;
+  }
+}
 @media (max-width: 1000px) {
   .contact-text {
     padding: 5rem 1rem 1rem 2rem;
@@ -147,9 +144,19 @@
     width: 30%;
   }
 }
+@media (max-width: 900px) {
+  .bot-text {
+    padding: 0 4rem;
+    font-size: 0.9rem;
+  }
+}
 @media (max-width: 700px) {
   .text-block {
     padding: 2rem 0rem 1rem 0rem;
+  }
+  .bot-text {
+    padding: 0 4rem;
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 600px) {
@@ -167,6 +174,12 @@
     padding: 6rem 0rem;
     font-size: 1.5rem;
     width: 35%;
+  }
+}
+@media (max-width: 578px) {
+  .bot-text {
+    padding: 2rem 1rem;
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 400px) {
