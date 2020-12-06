@@ -124,6 +124,19 @@ hr {
   align-items: center;
   justify-content: center;
 }
+.social-con {
+  display: flex;
+}
+.social-images {
+  margin-right: 1rem;
+  display: grid;
+  width: 1.2rem;
+}
+.connect-us {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Contact */
 @media (max-width: 1000px) {
   .contact-text {
