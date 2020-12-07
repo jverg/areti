@@ -3,8 +3,9 @@ html {
 }
 body {
   font-size: 1rem;
+  font-family: Manrope;
 }
-@font-face {
+/* @font-face {
   font-family: "PFDinTextW01-Light";
   src: url("//db.onlinewebfonts.com/t/46efc005525717fd84152cbf70f4de41.eot");
   src: url("//db.onlinewebfonts.com/t/46efc005525717fd84152cbf70f4de41.eot?#iefix")
@@ -17,7 +18,7 @@ body {
       format("truetype"),
     url("//db.onlinewebfonts.com/t/46efc005525717fd84152cbf70f4de41.svg#PFDinTextW01-Light")
       format("svg");
-}
+} */
 .submenu a {
   text-decoration: none;
   color: grey;
