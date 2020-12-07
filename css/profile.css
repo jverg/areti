@@ -61,6 +61,7 @@
   padding: 0 5rem;
   text-align: justify;
   text-justify: inter-word;
+  margin-top: 2rem;
 }
 .areti_tsanaktsidi {
   background-image: url("../images/biography/areti_tsanaktsidi.jpg");
@@ -118,6 +119,9 @@
 @media (max-width: 500px) {
   .bio-text {
     padding: 0 0.1rem;
+  }
+  .logo-onoma {
+    width: 100%;
   }
   .bio-title-text {
     padding: 0 0.1rem;
