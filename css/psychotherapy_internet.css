@@ -53,6 +53,7 @@
 @media (max-width: 600px) {
   .main-image-text {
     padding: 6rem 2rem;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 400px) {
