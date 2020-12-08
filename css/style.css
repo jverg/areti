@@ -90,6 +90,7 @@ h3 {
   color: white;
   padding: 0rem 0;
   left: auto;
+  margin-right: 0;
 }
 .submenu {
   display: flex;
