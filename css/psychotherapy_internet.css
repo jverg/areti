@@ -36,6 +36,8 @@
   padding: 2rem 20rem;
   text-align: justify;
   text-justify: inter-word;
+  color: grey;
+  line-height: 1.6;
 }
 @media (max-width: 1000px) {
   .main-image-text {
