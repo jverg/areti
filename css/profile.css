@@ -3,10 +3,10 @@
   padding: 0;
 }
 .main-image {
-  background-image: url("../images/biography/main.jpg");
+  background-image: url("../images/main-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: 36%;
   text-align: center;
   display: flex;
   justify-content: center;
