@@ -21,6 +21,7 @@ body {
 } */
 .submenu a {
   text-decoration: none;
+  line-height: 1.2;
   color: grey;
 }
 .submenu a:hover {
