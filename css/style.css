@@ -23,6 +23,7 @@ body {
   text-decoration: none;
   line-height: 1.2;
   color: grey;
+  margin: 0.5rem 0;
 }
 .submenu a:hover {
   color: white;
@@ -67,6 +68,10 @@ body {
 .nav-item .active .dropdown {
   color: #fec20c;
 }
+.dropdown {
+  display: flex;
+  justify-content: center;
+}
 .navbar-light .navbar-nav .nav-link {
   color: grey;
 }
@@ -84,6 +89,7 @@ h3 {
   background-color: #fec20c;
   color: white;
   padding: 0rem 0;
+  left: auto;
 }
 .submenu {
   display: flex;
@@ -142,6 +148,12 @@ hr {
   }
   .specialty {
     text-align: left;
+  }
+}
+@media (max-width: 992px) {
+  .dropdown {
+    display: block;
+    justify-content: center;
   }
 }
 @media (max-width: 400px) {
