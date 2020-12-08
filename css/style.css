@@ -64,7 +64,7 @@ body {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .nav-item .active .dropdown {
-  color: #f5c445;
+  color: #fec20c;
 }
 .navbar-light .navbar-nav .nav-link {
   color: grey;
@@ -80,7 +80,7 @@ h3 {
 }
 .dropdown-menu {
   min-width: 10rem;
-  background-color: #f5c445;
+  background-color: #fec20c;
   color: white;
   padding: 0rem 0;
 }
@@ -114,7 +114,7 @@ hr {
 /* Navbar */
 /* Contact */
 .contact {
-  background-color: #f5c445;
+  background-color: #fec20c;
 }
 .contact-text {
   padding: 7.5rem 1rem 1rem 2rem;
