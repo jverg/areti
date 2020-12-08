@@ -42,13 +42,16 @@
   font-size: 3rem;
 }
 .up-quote {
-  width: 3rem;
-  margin-right: 24rem;
+  width: 4rem;
+  margin-right: 26rem;
+  position: absolute;
+  margin-top: 8rem;
 }
 .down-quote {
-  width: 3rem;
+  width: 4rem;
   margin-left: 27rem;
-  margin-bottom: 2rem;
+  position: absolute;
+  margin-top: 16rem;
 }
 /* Main image */
 /* Biography */
@@ -87,6 +90,14 @@
   font-family: "PF Din Text Comp Pro Light";
   width: 25%;
 }
+@media (max-width: 1456px) {
+  .down-quote {
+    width: 4rem;
+    margin-left: 27rem;
+    position: absolute;
+    margin-top: 19.4rem;
+  }
+}
 @media (max-width: 1000px) {
   .submit-button {
     width: 100%;
@@ -105,15 +116,20 @@
   .up-quote {
     width: 1.5rem;
     margin-right: 13rem;
-    padding-top: 2rem;
+    padding-top: 0.3rem;
   }
   .main-image-text h3 {
     font-size: 1.5rem;
   }
   .down-quote {
     width: 1.5rem;
-    margin-left: 14rem;
-    padding-bottom: 2rem;
+    margin-left: 13.4rem;
+    margin-top: 11.8rem;
+  }
+}
+@media (max-width: 760px) {
+  .down-quote {
+    margin-top: 13.6rem;
   }
 }
 @media (max-width: 500px) {
@@ -130,4 +146,8 @@
     padding: 0 0.1rem;
   }
 }
+@media (max-width: 470px) {
+  .down-quote {
+    margin-top: 15.3rem;
+  }
 /* Biography */
