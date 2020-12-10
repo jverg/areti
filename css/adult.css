@@ -14,13 +14,11 @@
 .main-image-text {
   background-color: rgba(254, 194, 12, 0.4);
   color: white;
-  width: 16.816%;
-  height: 3rem;
   font-size: 1.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10rem 2rem;
+  padding: 6.36rem 2rem;
   margin: 8rem 0;
 }
 .text-row {
@@ -56,9 +54,6 @@
   line-height: 1.6;
 }
 @media (max-width: 1000px) {
-  .main-image-text {
-    width: 50%;
-  }
   .text {
     padding: 1rem 1rem;
   }
@@ -67,15 +62,5 @@
   }
   .down-text {
     padding: 0 1rem;
-  }
-}
-@media (max-width: 600px) {
-  .main-image-text {
-    padding: 6rem 2rem;
-  }
-}
-@media (max-width: 400px) {
-  .main-image-text {
-    width: 60%;
   }
 }
