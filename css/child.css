@@ -44,12 +44,29 @@
   color: grey;
   line-height: 1.6;
 }
+.upper-down-text {
+  text-align: justify;
+  text-justify: inter-word;
+  color: grey;
+  line-height: 1.6;
+}
+.down-text {
+  font-size: 1.5rem;
+  color: #606060;
+  line-height: 1.6;
+}
 @media (max-width: 1000px) {
   .main-image-text {
     width: 50%;
   }
   .text {
     padding: 1rem 1rem;
+  }
+  .upper-down-text {
+    padding: 0 1rem;
+  }
+  .down-text {
+    padding: 0 1rem;
   }
 }
 @media (max-width: 600px) {
