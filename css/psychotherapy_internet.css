@@ -37,6 +37,9 @@
   color: grey;
   line-height: 1.6;
 }
+#contact {
+  margin-top: 0.5rem;
+}
 @media (max-width: 1000px) {
   .text {
     padding: 1rem 1rem;
