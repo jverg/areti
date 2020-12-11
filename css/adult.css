@@ -57,11 +57,13 @@
   font-size: 1.5rem;
   color: #606060;
   margin-top: 1.2rem;
+  line-height: 0.8;
 }
 .down-text-no-line-bottom {
   font-size: 1.5rem;
   color: #606060;
   margin-bottom: 1.2rem;
+  line-height: 0.8;
 }
 @media (max-width: 1000px) {
   .text {
