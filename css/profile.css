@@ -18,7 +18,7 @@
   height: 100%;
   font-size: 2.3rem;
   display: initial;
-  padding: 8rem 2rem 6rem 2rem;
+  padding: 7rem 2rem 6rem 2rem;
   margin: 0 0;
 }
 .bottom-top {
@@ -45,13 +45,13 @@
   width: 4rem;
   margin-right: 26rem;
   position: absolute;
-  margin-top: 8rem;
+  margin-top: 7rem;
 }
 .down-quote {
   width: 4rem;
   margin-left: 27rem;
   position: absolute;
-  margin-top: 16rem;
+  margin-top: 15rem;
 }
 /* Main image */
 /* Biography */
@@ -95,7 +95,7 @@
     width: 4rem;
     margin-left: 27rem;
     position: absolute;
-    margin-top: 19.4rem;
+    margin-top: 18.5rem;
   }
 }
 @media (max-width: 1000px) {
@@ -124,12 +124,12 @@
   .down-quote {
     width: 1.5rem;
     margin-left: 13.4rem;
-    margin-top: 11.8rem;
+    margin-top: 10.8rem;
   }
 }
 @media (max-width: 760px) {
   .down-quote {
-    margin-top: 13.6rem;
+    margin-top: 12.6rem;
   }
 }
 @media (max-width: 500px) {
@@ -148,6 +148,12 @@
 }
 @media (max-width: 470px) {
   .down-quote {
-    margin-top: 15.5rem;
+    margin-top: 14.3rem;
   }
+}
+@media (max-width: 317px) {
+  .down-quote {
+    margin-top: 16.1rem;
+  }
+}
 /* Biography */
