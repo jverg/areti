@@ -53,9 +53,15 @@
   color: #606060;
   line-height: 1.6;
 }
-.down-text-no-line {
+.down-text-no-line-top {
   font-size: 1.5rem;
   color: #606060;
+  margin-top: 1.2rem;
+}
+.down-text-no-line-bottom {
+  font-size: 1.5rem;
+  color: #606060;
+  margin-bottom: 1.2rem;
 }
 @media (max-width: 1000px) {
   .text {
@@ -67,7 +73,10 @@
   .down-text {
     padding: 0 1rem;
   }
-  .down-text-no-line {
+  .down-text-no-line-top {
+    padding: 0 1rem;
+  }
+  .down-text-no-line-bottom {
     padding: 0 1rem;
   }
 }
