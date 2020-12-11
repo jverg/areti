@@ -53,6 +53,9 @@
   color: #606060;
   line-height: 1.6;
 }
+#contact {
+  margin-top: 1.5rem;
+}
 @media (max-width: 1000px) {
   .text {
     padding: 1rem 1rem;
