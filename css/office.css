@@ -230,6 +230,11 @@
     padding: 5.8rem 0rem;
   }
 }
+@media (max-width: 550px) {
+  .main-image-text {
+    padding: 5.4rem 0rem;
+  }
+}
 @media (max-width: 500px) {
   .main-image-text {
     padding: 5.4rem 0rem;
