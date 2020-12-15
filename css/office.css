@@ -240,6 +240,11 @@
     padding: 5.4rem 0rem;
   }
 }
+@media (max-width: 450px) {
+  .main-image-text {
+    padding: 5.2rem 0rem;
+  }
+}
 @media (max-width: 400px) {
   .navbar-brand {
     width: 12rem;
@@ -247,6 +252,16 @@
   .main-image-text {
     width: 40%;
     padding: 5rem 0;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 380px) {
+  .navbar-brand {
+    width: 12rem;
+  }
+  .main-image-text {
+    width: 40%;
+    padding: 4.5rem 0;
     font-size: 1.2rem;
   }
 }
