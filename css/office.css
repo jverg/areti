@@ -172,12 +172,14 @@
     padding: 8rem 0rem;
   }
 }
+@media (max-width: 780px) {
+  .main-image-text {
+    padding: 7rem 0rem;
+  }
+}
 @media (max-width: 700px) {
   .text-block {
     padding: 2rem 0rem 1rem 0rem;
-  }
-  .main-image-text {
-    padding: 7rem 0rem;
   }
   .bot-text {
     padding: 0 4rem;
