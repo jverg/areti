@@ -176,6 +176,10 @@
     padding: 8rem 0rem;
   }
 }
+@media (max-width: 880px) {
+  .main-image-text {
+    padding: 7.8rem 0rem;
+  }
 @media (max-width: 780px) {
   .main-image-text {
     padding: 7.5rem 0rem;
