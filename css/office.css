@@ -163,6 +163,10 @@
     font-size: 1.6rem;
   }
 }
+@media (max-width: 1000px) {
+  .main-image-text {
+    padding: 9rem 0rem;
+  }
 @media (max-width: 900px) {
   .bot-text {
     padding: 0 4rem;
