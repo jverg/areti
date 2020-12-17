@@ -157,6 +157,11 @@ hr {
     justify-content: center;
   }
 }
+@media (max-width: 450px) {
+  .hashline {
+    display: none;
+  }
+}
 @media (max-width: 400px) {
   .navbar-brand {
     width: 12rem;

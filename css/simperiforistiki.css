@@ -56,6 +56,10 @@
   color: grey;
   line-height: 1.6;
 }
+.text-bold {
+  text-justify: inter-word;
+  line-height: 1.6;
+}
 .upper-down-text {
   text-align: justify;
   text-justify: inter-word;
@@ -81,6 +85,9 @@
 }
 @media (max-width: 1000px) {
   .text {
+    padding: 1rem 1rem;
+  }
+  .text-bold {
     padding: 1rem 1rem;
   }
   .upper-down-text {
