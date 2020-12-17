@@ -144,6 +144,19 @@ hr {
   align-items: center;
   justify-content: center;
 }
+.down-text-no-line-top {
+  font-size: 1.5rem;
+  color: #606060;
+  margin-top: 1.2rem;
+  line-height: 0.8;
+}
+.down-text-no-line-bottom {
+  font-size: 1.5rem;
+  color: #606060;
+  margin-bottom: 1.2rem;
+  margin-top: 0.8rem;
+  line-height: 0.8;
+}
 /* Contact */
 @media (max-width: 1000px) {
   .contact-text {
@@ -152,6 +165,14 @@ hr {
   }
   .specialty {
     text-align: left;
+  }
+  .down-text-no-line-top {
+    padding: 0 1rem;
+    line-height: 1;
+  }
+  .down-text-no-line-bottom {
+    padding: 0 1rem;
+    line-height: 1;
   }
 }
 @media (max-width: 992px) {
