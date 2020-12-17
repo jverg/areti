@@ -146,16 +146,16 @@ hr {
 }
 .down-text-no-line-top {
   font-size: 1.5rem;
+  display: inline-block;
   color: #606060;
-  margin-top: 1.2rem;
-  margin-bottom: 0.8rem;
+  margin: 1rem 0;
   line-height: 0.8;
 }
 .down-text-no-line-bottom {
   font-size: 1.5rem;
+  display: inline-block;
   color: #606060;
-  margin-bottom: 1.2rem;
-  margin-top: 0.8rem;
+  margin: 1rem 0;
   line-height: 0.8;
 }
 /* Contact */
